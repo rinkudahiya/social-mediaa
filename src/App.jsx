@@ -29,7 +29,8 @@ function App() {
           {selectedTab === "Home" ? (
             <PostList></PostList>
           ) : (
-            <CreatePost></CreatePost>
+            <CreatePost selectedTab={selectedTab}
+            setselectedTab={setselectedTab}></CreatePost>
           )}
 
           <Footer></Footer>
