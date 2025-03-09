@@ -55,7 +55,7 @@ const Header = ({ selectedTab, setselectedTab }) => {
               </a>
             </li>
             <li>
-              <a href="#" className="nav-link px-2 text-white">
+              <a href="#" className="nav-link px-2 text-white mobile">
                 FAQs
               </a>
             </li>
@@ -67,7 +67,7 @@ const Header = ({ selectedTab, setselectedTab }) => {
           </ul>
 
           <form
-            className="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3"
+            className="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 mobile"
             role="search"
           >
             <input
@@ -78,7 +78,7 @@ const Header = ({ selectedTab, setselectedTab }) => {
             />
           </form>
 
-          <div className="text-end">
+          <div className="text-end mobile">
             <button type="button" className="btn btn-outline-light me-2">
               Login
             </button>

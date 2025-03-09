@@ -7,7 +7,7 @@
 }
 
 .sidebar{
-  min-height: 800px;
+  height: 800px;
 }
 
 .post-card{
@@ -31,4 +31,17 @@
 
 .welcome-msg{
   margin: 150px 0px;
+}
+
+.post-card{
+  width: 30rem;
+}
+@media screen and (min-width:200px) and (max-width:500px) {
+  .mobile{
+    display: none;
+  }
+  .post-card{
+    width: 360px;
+    margin-left: 6px;
+  }
 }
